@@ -5,8 +5,8 @@ height = 150
 origin = V(0, 0)
 thickness = 12.5
 
-toothbrush_holder_dia = 100
-tray_diameter = 97
+toothbrush_holder_dia = 80
+tray_diameter = 90
 x_spacing = 60
 y_offset = -10
 toothbrush_holder_centre = origin-V(toothbrush_holder_dia/2, 0)-V(x_spacing/2, 0)+V(0, y_offset)
