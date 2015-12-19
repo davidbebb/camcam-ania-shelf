@@ -13,7 +13,8 @@ toothbrush_holder_centre = origin-V(toothbrush_holder_dia/2, 0)-V(x_spacing/2, 0
 tray_centre=origin+V(tray_diameter/2, 0)+V(x_spacing/2, 0)+V(0, y_offset)
 
 
-mount_spacing = 150
+mount_spacing = 122
+mount_screw_head_dia = 8
 plane = camcam.add_plane(Plane('xy', cutter='1/8_endmill'))
 
 plane.add_layer('layer_name', 'plywood', thickness)
